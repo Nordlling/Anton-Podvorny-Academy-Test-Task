@@ -176,6 +176,7 @@ function intervalIdentification(arr) {
     for (let key in semiIntervals) {
         if(semiIntervals[key] == semiNotesCount && key[1] == notesCount) trueAnswer += key
     }
+    if(trueAnswer === '') throw new Error("Cannot identify the interval");
       
     return trueAnswer
   
