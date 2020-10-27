@@ -1,36 +1,36 @@
-const semiIntervals = {     
-    m2: 1,  
-    M2: 2,
-    m3: 3,
-    M3: 4,
-    P4: 5,
-    P5: 7,
-    m6: 8,
-    M6: 9,
-    m7: 10,
-    M7: 11,
-    P8: 12
-  };
-  
-  const intervals = {     
-    m2: 2,  
-    M2: 2,
-    m3: 3,
-    M3: 3,
-    P4: 4,
-    P5: 5,
-    m6: 6,
-    M6: 6,
-    m7: 7,
-    M7: 7,
-    P8: 8
-  };
-  
-  const notes = ['C', 'D', 'E', 'F', 'G', 'A', 'B']
-  
-  const semiNotes = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B']
-  
 function intervalConstruction(arr) {
+
+    const semiIntervals = {     
+        m2: 1,  
+        M2: 2,
+        m3: 3,
+        M3: 4,
+        P4: 5,
+        P5: 7,
+        m6: 8,
+        M6: 9,
+        m7: 10,
+        M7: 11,
+        P8: 12
+      };
+      
+      const intervals = {     
+        m2: 2,  
+        M2: 2,
+        m3: 3,
+        M3: 3,
+        P4: 4,
+        P5: 5,
+        m6: 6,
+        M6: 6,
+        m7: 7,
+        M7: 7,
+        P8: 8
+      };
+      
+      const notes = ['C', 'D', 'E', 'F', 'G', 'A', 'B']
+      
+      const semiNotes = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B']
   
     if(arr.length !== 2 && arr.length !== 3) throw new Error("Illegal number of elements in input array");
   
@@ -94,6 +94,38 @@ function intervalConstruction(arr) {
   }
   
 function intervalIdentification(arr) {
+
+    const semiIntervals = {     
+        m2: 1,  
+        M2: 2,
+        m3: 3,
+        M3: 4,
+        P4: 5,
+        P5: 7,
+        m6: 8,
+        M6: 9,
+        m7: 10,
+        M7: 11,
+        P8: 12
+      };
+      
+      const intervals = {     
+        m2: 2,  
+        M2: 2,
+        m3: 3,
+        M3: 3,
+        P4: 4,
+        P5: 5,
+        m6: 6,
+        M6: 6,
+        m7: 7,
+        M7: 7,
+        P8: 8
+      };
+      
+      const notes = ['C', 'D', 'E', 'F', 'G', 'A', 'B']
+      
+      const semiNotes = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B']
   
     if(arr.length !== 2 && arr.length !== 3) throw new Error("Illegal number of elements in input array");
   
